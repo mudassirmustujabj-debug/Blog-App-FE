@@ -1,12 +1,86 @@
-# React + Vite
+# Blog Platform - Frontend
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A responsive React application for creating, reading, editing, and managing blog posts.
 
-Currently, two official plugins are available:
+The frontend communicates with the Blog REST API and provides secure authentication and media upload support.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+---
 
-## Expanding the ESLint configuration
+## Features
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+- User Authentication
+- Create Blog Posts
+- Edit Posts
+- Delete Posts
+- Image Upload
+- Responsive Design
+- Protected Routes
+
+---
+
+## Tech Stack
+
+- React.js
+- React Router
+- Tailwind CSS
+- Axios
+
+---
+
+## Folder Structure
+
+```
+src/
+
+├── components/
+├── pages/
+├── hooks/
+├── services/
+├── assets/
+└── App.jsx
+```
+
+---
+
+## Installation
+
+```bash
+git clone https://github.com/mudassirmustujabj-debug/Blog-App-FE.git
+
+cd Blog-App-FE
+
+npm install
+
+npm run dev
+```
+
+---
+
+## Environment Variables
+
+```env
+VITE_API_URL=
+```
+
+---
+
+## Deployment
+
+Frontend deployed on Vercel.
+
+---
+
+## Future Improvements
+
+- Rich Text Editor
+- Dark Mode
+- Categories
+- Search
+- Pagination
+- User Profiles
+
+---
+
+## Author
+
+Syed Mudassir Mustujab
